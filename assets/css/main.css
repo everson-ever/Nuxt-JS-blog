@@ -1,0 +1,118 @@
+body {
+    background-image: url(/background.png);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+
+
+.text-red {
+    color: #8a0120;
+}
+
+main {
+    padding: 0 32px;
+}
+
+
+
+a {
+    color: #8a0120;
+    text-decoration: none;
+}
+
+ul.skills {
+    width: 400px;
+}
+
+ul.skills li {
+    background-color: #8a0120;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ul.skills li:hover {
+    width: 100% !important;
+}
+
+form {
+    width: 400px;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    padding: 8px 10px;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+}
+
+button {
+    background-color: #8a0120;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul.social {
+    margin-top: 15px;
+}
+
+ul.social li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+
+
+@media (max-width: 600px) {
+    ul.skills, form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+}
+
+.box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 20px;
+    display: none;
+}
